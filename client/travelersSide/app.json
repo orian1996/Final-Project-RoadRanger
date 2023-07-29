@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "plugins": [
+      "expo-location"
+    ],
+    "name": "RoadRanger",
+    "slug": "RoadRanger",
+    "privacy": "public",
+    "description": "Help travelers report and be updated on events on their location",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/RoadRanger1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/RoadRanger1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/RoadRanger1.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/RoadRanger1.png"
+    }
+  }
+}
